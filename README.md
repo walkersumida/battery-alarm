@@ -2,6 +2,8 @@
 
 This is a simple script that will check the battery level of devices connected via Bluetooth on Mac and notify if it is below a certain threshold.
 
+![preview](./preview.png)
+
 ## Usage
 
 #### 1. Clone the repository
