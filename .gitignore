@@ -1,0 +1,7 @@
+.vscode/*
+tmp/*
+
+battery-alarm
+
+log.err
+log.out
