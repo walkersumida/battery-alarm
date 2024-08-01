@@ -6,25 +6,14 @@ This is a simple script that will check the battery level of devices connected v
 
 ## Usage
 
-#### 1. Clone the repository
+#### 1. Clone this repository
 
-#### 2. Run the Script
-
-Run the script with the desired threshold as an argument. For example, to set the threshold to 20% run the following command:
-
-```bash
-go run main.go -t 20
+```sh
+git clone git@github.com:walkersumida/battery-alarm.git
 ```
 
-or
+#### 2. Install
 
-```bash
-go build main.go -o batteryalarm
-./batteryalarm -t 20
+```sh
+make install
 ```
-
-#### 3. Register a Scheduled Job
-
-TODO: Add a description
-
-https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/ScheduledJobs.html
