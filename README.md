@@ -6,14 +6,30 @@ This is a simple script that will check the battery level of devices connected v
 
 ## Usage
 
-#### 1. Clone this repository
+#### Clone this repository
 
 ```sh
 git clone git@github.com:walkersumida/battery-alarm.git
 ```
 
-#### 2. Install
+#### Adjust the threshold
+
+Please adjust the number being passed to the `-t` (threshold) flag defined in the plist file.
+
+#### Install
 
 ```sh
 make install
+```
+
+#### Update
+
+```sh
+make update
+```
+
+#### Uninstall
+
+```sh
+make uninstall
 ```
